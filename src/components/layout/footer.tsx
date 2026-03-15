@@ -21,7 +21,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-3">
               <a
-                href="https://github.com"
+                href="https://github.com/Harries/startfast-free"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
@@ -29,7 +29,7 @@ export function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/HarriesBLOG"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
@@ -44,12 +44,12 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Product</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="#features" className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
+                <Link href="/#features" className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
                   Features
                 </Link>
               </li>
               <li>
-                <Link href="#pricing" className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
+                <Link href="/#pricing" className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
                   Pricing
                 </Link>
               </li>
@@ -58,37 +58,42 @@ export function Footer() {
                   Documentation
                 </Link>
               </li>
-              <li>
-                <Link href="/changelog" className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
-                  Changelog
-                </Link>
-              </li>
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Resources */}
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
-                  About
-                </Link>
+                <a 
+                  href="https://github.com/Harries/startfast-free" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white"
+                >
+                  GitHub
+                </a>
               </li>
               <li>
-                <Link href="/blog" className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
-                  Blog
-                </Link>
+                <a 
+                  href="https://nextjs.org/docs" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white"
+                >
+                  Next.js Docs
+                </a>
               </li>
               <li>
-                <Link href="/careers" className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
-                  Contact
-                </Link>
+                <a 
+                  href="https://tailwindcss.com/docs" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white"
+                >
+                  Tailwind CSS
+                </a>
               </li>
             </ul>
           </div>
@@ -99,12 +104,12 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/privacy" className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
-                  Privacy
+                  Privacy Policy
                 </Link>
               </li>
               <li>
                 <Link href="/terms" className="text-sm text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
-                  Terms
+                  Terms of Service
                 </Link>
               </li>
             </ul>

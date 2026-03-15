@@ -24,7 +24,7 @@ export default function SignInPage() {
     try {
       await signIn.email({ email, password });
       router.push('/dashboard');
-    } catch (err) {
+    } catch {
       setError('Invalid email or password');
     } finally {
       setIsLoading(false);
@@ -34,7 +34,7 @@ export default function SignInPage() {
   const handleSocialLogin = async (provider: 'google' | 'github') => {
     try {
       await signIn.social({ provider, callbackURL: '/dashboard' });
-    } catch (err) {
+    } catch {
       setError('Failed to sign in with ' + provider);
     }
   };

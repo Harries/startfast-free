@@ -41,7 +41,7 @@ export function HeroSection() {
               </Button>
             </Link>
             <a
-              href="https://github.com"
+              href="https://github.com/Harries/startfast-free"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -52,14 +52,20 @@ export function HeroSection() {
             </a>
           </div>
 
-          {/* Trust badges */}
-          <p className="mt-12 text-sm text-slate-500 dark:text-slate-400">
-            Trusted by developers worldwide
-          </p>
-          <div className="mt-4 flex items-center justify-center gap-8 opacity-50 grayscale">
-            <div className="h-8 w-24 bg-slate-300 dark:bg-slate-600 rounded" />
-            <div className="h-8 w-24 bg-slate-300 dark:bg-slate-600 rounded" />
-            <div className="h-8 w-24 bg-slate-300 dark:bg-slate-600 rounded" />
+          {/* Stats */}
+          <div className="mt-16 grid grid-cols-3 gap-8 max-w-lg mx-auto">
+            <div className="text-center">
+              <p className="text-3xl font-bold text-slate-900 dark:text-white">10K+</p>
+              <p className="text-sm text-slate-500 dark:text-slate-400">Developers</p>
+            </div>
+            <div className="text-center">
+              <p className="text-3xl font-bold text-slate-900 dark:text-white">500+</p>
+              <p className="text-sm text-slate-500 dark:text-slate-400">Projects</p>
+            </div>
+            <div className="text-center">
+              <p className="text-3xl font-bold text-slate-900 dark:text-white">99%</p>
+              <p className="text-sm text-slate-500 dark:text-slate-400">Satisfaction</p>
+            </div>
           </div>
         </div>
       </div>

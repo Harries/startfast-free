@@ -25,7 +25,7 @@ export default function SignUpPage() {
     try {
       await signUp.email({ email, password, name });
       router.push('/dashboard');
-    } catch (err) {
+    } catch {
       setError('Failed to create account. Please try again.');
     } finally {
       setIsLoading(false);
@@ -35,7 +35,7 @@ export default function SignUpPage() {
   const handleSocialSignUp = async (provider: 'google' | 'github') => {
     try {
       await signIn.social({ provider, callbackURL: '/dashboard' });
-    } catch (err) {
+    } catch {
       setError('Failed to sign up with ' + provider);
     }
   };
