@@ -252,7 +252,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Links
 
 - [GitHub Repository](https://github.com/Harries/startfast-free)
-- [Twitter/X](https://x.com/HarriesBLOG)
+- [Twitter/X](https://x.com/HarriesSteele)
 
 ## Support
 
@@ -260,4 +260,4 @@ If you find this project helpful, please give it a star on GitHub!
 
 ---
 
-Built with ❤️ by [Harries](https://x.com/HarriesBLOG)
+Built with ❤️ by [Harries](https://x.com/HarriesSteele)

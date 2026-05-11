@@ -29,7 +29,7 @@ export function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://x.com/HarriesBLOG"
+                href="https://x.com/HarriesSteele"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
